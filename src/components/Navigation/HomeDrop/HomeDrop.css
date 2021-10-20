@@ -1,0 +1,86 @@
+#HomeDrop{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.342);
+    font-size: 72px;
+    text-align: center;
+   
+}
+.HomeDrop img{
+    font-size: 12px;
+ }
+
+.story-header{
+    margin: auto;
+}
+
+
+@media (max-width: 1000px){
+  
+    .HomeDrop{
+        text-align: left;
+        margin-bottom: 40px ;
+    }
+    .HomeDrop p{
+        padding: 0 ;
+        text-align: left;
+   
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .HomeDrop img{
+       float: left;
+       margin-left:10px ;
+       margin-right:30px ;
+       border-radius: 0px;
+       width: 250px;
+       height: 260px;
+      
+    }
+    .HomeDrop h1{
+        color:rgba(7, 7, 7, 0.411);
+    
+        text-align: center;
+    }
+    .HomeDrop p{
+        text-align: left;
+       
+    }
+}
+
+@media (max-width: 700px){
+  
+    .HomeDrop{
+        text-align: left;
+        margin-bottom: 40px ;
+        display: block;
+    }
+    .HomeDrop p{
+        padding: 0 ;
+        text-align: left;
+        display:block;
+        margin:20px ;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .HomeDrop img{
+       float: left;
+       display:block;
+       margin-right:30px ;
+       border-radius: 0px;
+       width: 80%;
+       height: 260px;
+      
+    }
+    .HomeDrop h1{
+        color:rgba(7, 7, 7, 0.411);
+    
+        text-align: center;
+    }
+    .HomeDrop p{
+        margin:10px ;
+        text-align: left;
+       
+    }
+}

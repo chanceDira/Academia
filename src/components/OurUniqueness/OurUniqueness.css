@@ -1,0 +1,336 @@
+.OurUniqueness{
+    background-color: rgb(240, 233, 233);
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+.uniqueness-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.uniqueness-item{
+    width:35%;
+    margin: 30px;
+    margin-top: -20px;
+    border-radius: 5px;
+    height: auto;
+    color:white;
+    background-image: linear-gradient( 135deg, #97ABFF 10%, #08aefb 100%);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.041);
+    padding: 30px;
+}
+
+.uniqueness-item--1{
+    margin: 60px 30px 30px 30px;
+    
+    display:block;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    width:55%;
+   
+    /* background-image: linear-gradient( 135deg, #c4cff84f 10%, #acb1c050 100%); */
+  
+
+}
+
+.how-to-proceed-content{
+    margin: 30px;
+    width: 90%;
+    font-size: 28px;
+    padding:30px;
+    /* box-shadow: 1px 5px 1px 5px rgba(0, 0, 0, 0.151); */
+ 
+
+}
+
+.how-to-proceed-control{
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #acb1c050 100%);
+    width: 100%;
+    display: flex;
+    color: white;
+    box-shadow: 1px 5px 1px 5px rgba(0, 0, 0, 0.151);
+ 
+
+}
+.how-to-proceed-item{
+    width: 30%;
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #03154b50 100%);
+    padding: 10px;
+    text-align: center; 
+}
+.how-to-proceed-item--1{
+    width: 30%;
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+    padding: 10px;
+    text-align: center; 
+}
+.how-to-proceed-item--1:hover{
+    background-color: blue;
+    transition: all 1.3s ease-out;
+    color: white;
+}
+
+
+.how-to-proceed-item--2{
+    width: 30%;
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+    padding: 10px;
+    text-align: center; 
+}
+.how-to-proceed-item--2:hover{
+    background-color: #5a1005;
+    transition: all 1.3s ease-out;
+    color: white;
+}
+.how-to-proceed-item--3{
+    width: 30%;
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+    padding: 10px;
+    text-align: center; 
+}
+.how-to-proceed-item--3:hover{
+    background-color: #032aa0f5;
+    transition: all 1.3s ease-out;
+    color: white;
+}
+.how-to-proceed-item--4{
+    width: 30%;
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+    padding: 10px;
+    text-align: center; 
+    
+}
+.how-to-proceed-item--4:hover{
+    background-color: #5a1005;
+    transition: all 1.3s ease-out;
+    color: white;
+}
+
+.how-to-proceed-content-elig{
+    width: 100%;
+    font-size: 28px;
+    text-align: left; 
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248f5b 100%);
+    padding: 10px;
+    text-align: center; 
+    height:550px;
+}
+
+
+
+.how-to-proceed-content-serv{
+    width: 100%;
+    font-size: 28px;
+    text-align: left; 
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+    padding: 10px;
+    text-align: center; 
+    height:550px;
+}
+.how-to-proceed-content-app{
+    width: 100%;
+    font-size: 28px;
+    text-align: left; 
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+    padding: 10px;
+    text-align: center; 
+    height:550px;
+}
+.how-to-proceed-content-rev{
+    width: 100%;
+    font-size: 28px;
+    text-align: left; 
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+
+    padding: 10px;
+    height:550px;
+    
+}
+
+.get-content-elig{
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 200px;
+    margin: 40px auto;
+    color:white;
+    height: fit-content;
+}
+.get-content-serv{
+    background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 200px;
+    margin: 40px auto;
+    color:white;
+    height: fit-content;
+}
+@media(max-width:780px){
+    .OurUniqueness{
+        background-color: rgb(240, 233, 233);
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+    .uniqueness-container{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .uniqueness-item{
+        width:94%;
+        margin: 30px;
+        margin-top: -20px;
+        border-radius: 5px;
+        height: auto;
+        color:white;
+        background-image: linear-gradient( 135deg, #97ABFF 10%, #08aefb 100%);
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.041);
+        padding: 30px;
+    }
+    
+    .uniqueness-item--1{
+        margin: 60px 30px 30px 30px;
+        
+        display:block;
+        box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+        width:94%;
+       
+        /* background-image: linear-gradient( 135deg, #c4cff84f 10%, #acb1c050 100%); */
+      
+    
+    }
+    
+    .how-to-proceed-content{
+        margin: 30px;
+        width: 90%;
+        font-size: 28px;
+        padding:30px;
+        /* box-shadow: 1px 5px 1px 5px rgba(0, 0, 0, 0.151); */
+     
+    
+    }
+    
+    .how-to-proceed-control{
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #acb1c050 100%);
+        width: 100%;
+        display: flex;
+        color: white;
+        box-shadow: 1px 5px 1px 5px rgba(0, 0, 0, 0.151);
+     
+    
+    }
+    .how-to-proceed-item{
+        width: 30%;
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #03154b50 100%);
+        padding: 10px;
+        text-align: center; 
+    }
+    .how-to-proceed-item--1{
+        width: 30%;
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+        padding: 10px;
+        text-align: center; 
+    }
+    .how-to-proceed-item--1:hover{
+        background-color: blue;
+        transition: all 1.3s ease-out;
+        color: white;
+    }
+    
+    
+    .how-to-proceed-item--2{
+        width: 30%;
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+        padding: 10px;
+        text-align: center; 
+    }
+    .how-to-proceed-item--2:hover{
+        background-color: #5a1005;
+        transition: all 1.3s ease-out;
+        color: white;
+    }
+    .how-to-proceed-item--3{
+        width: 30%;
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+        padding: 0px;
+        text-align: center; 
+    }
+    .how-to-proceed-item--3:hover{
+        background-color: #032aa0f5;
+        transition: all 1.3s ease-out;
+        color: white;
+    }
+    .how-to-proceed-item--4{
+        width: 30%;
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+        padding: 0px;
+        text-align: center; 
+        
+    }
+    .how-to-proceed-item--4:hover{
+        background-color: #5a1005;
+        transition: all 1.3s ease-out;
+        color: white;
+    }
+    
+    .how-to-proceed-content-elig{
+        width: 100%;
+        font-size: 28px;
+        text-align: left; 
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248f5b 100%);
+        padding: 2px;
+        text-align: center; 
+        height:550px;
+    }
+    
+    
+    
+    .how-to-proceed-content-serv{
+        width: 100%;
+        font-size: 28px;
+        text-align: left; 
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+        padding: 10px;
+        text-align: center; 
+        height:550px;
+    }
+    .how-to-proceed-content-app{
+        width: 100%;
+        font-size: 28px;
+        text-align: left; 
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+        padding: 10px;
+        text-align: center; 
+        height:550px;
+    }
+    .how-to-proceed-content-rev{
+        width: 100%;
+        font-size: 28px;
+        text-align: left; 
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #5a1005d5 100%);
+    
+        padding: 10px;
+        height:550px;
+        
+    }
+    
+    .get-content-elig{
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+        width: fit-content;
+        padding: 0px 5px;
+        border-radius: 200px;
+        margin: 0px auto;
+        color:white;
+        height: fit-content;
+    }
+    .get-content-serv{
+        background-image: linear-gradient( 135deg, #c4cff84f 10%, #00248fcb 100%);
+        width: fit-content;
+        padding: 10px 25px;
+        border-radius: 200px;
+        margin: 0px auto;
+        color:white;
+        height: fit-content;
+    }
+}

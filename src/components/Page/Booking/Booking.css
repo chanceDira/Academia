@@ -1,0 +1,24 @@
+.booking{
+    text-align: center;
+    margin: 100px auto ;
+}
+.booking p{
+    padding: 0 100px ;
+    text-align: left;
+    margin: 10px 0 0 40px;
+    color:rgba(7, 7, 7, 0.788);
+    font-size: 18px;
+    font-weight: 400;
+}
+.booking img{
+   float: right;
+   margin: 0 30px ;
+   border-radius: 30px;
+   width: 450px;
+   height: 50vh;
+  
+}
+.booking h1{
+    color:rgba(7, 7, 7, 0.411);
+    text-align: center;
+}

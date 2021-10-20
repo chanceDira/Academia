@@ -1,0 +1,135 @@
+.services-process-start{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.342);
+    font-size: 36px;
+    text-align: center;
+   
+}
+.services-process-start img{
+    font-size: 12px;
+ }
+ .start-check-elig-btn{
+    width:200px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(4, 78, 161);
+    border-radius: 20px;
+ 
+ }
+
+.services-process-header{
+    margin: auto;
+}
+.start-eligibility-container{
+  
+    display: inline-flex;
+}
+.start-eligibility-item--1{
+    
+    background-color: blue;
+    margin-left: 100px;
+}
+.start-eligibility-item{
+   width: 60%;
+   margin: 10px auto;
+   padding: 50px;
+   box-shadow: 10px 10px 10px 10px rgba(70, 8, 8, 0.048);
+
+    }
+
+
+.start-eligibility-item p{
+    text-align: left;
+    color:rgba(7, 7, 7, 0.788);
+    padding-right: 80px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.start-eligibility-item h1{
+    color:rgba(7, 7, 7, 0.411);
+    text-align: center;
+}
+.start-eligibility-item h2{
+    color:#4EB0D5;
+    text-align: left;
+    font-weight: 500;
+    font-size: 23px;
+}
+.start-eligibility-item h3{
+    color:rgba(7, 7, 7, 0.801);
+    text-align: left;
+    padding-right: 40px;
+    font-size: 36px;
+   
+}
+
+@media (max-width: 1000px){
+    .services-process-start{
+        text-align: left;
+        margin-bottom: 40px ;
+    }
+    .services-process-start p{
+        padding: 0 ;
+        text-align: left;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .services-process-start img{
+       float: left;
+       margin-left:10px ;
+       margin-right:30px ;
+       border-radius: 0px;
+       width: 250px;
+       height: 260px;
+      
+    }
+    .services-process-start h1{
+        color:rgba(7, 7, 7, 0.411);
+    
+        text-align: center;
+    }
+    .services-process-start p{
+        text-align: left;
+       
+    }
+}
+
+@media (max-width: 700px){
+    .services-process-start{
+        text-align: left;
+        margin-bottom: 40px ;
+        display: block;
+    }
+    .services-process-start p{
+        padding: 0 ;
+        text-align: left;
+        display:block;
+        margin:20px ;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .services-process-start img{
+       float: left;
+       display:block;
+       margin-right:30px ;
+       border-radius: 0px;
+       width: 80%;
+       height: 260px;
+      
+    }
+    .services-process-start h1{
+        color:rgba(7, 7, 7, 0.411);
+    
+        text-align: center;
+    }
+    .services-process-start p{
+        margin:10px ;
+        text-align: left;
+       
+    }
+}

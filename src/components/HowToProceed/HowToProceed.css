@@ -1,0 +1,92 @@
+.how{
+  text-align: center;
+  font-weight: 900;
+  margin: 30px;
+}
+
+.how-to-proceed{
+  font-weight: bold;
+  margin: 50px;
+  box-shadow: 5px 10px 5px rgba(109, 104, 104, 0.555) ;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.how-to-proceed-holder{
+  font-size: 36px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+
+.how-to-proceed-subholder1{
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  height: 80px;
+  display: inline-block;
+  background-color: rgb(233, 211, 12);
+  width: 25%;
+  text-decoration: none;
+  border-radius: 10px 0 0 0;
+}
+
+.how-to-proceed-subholder2{
+  font-size: 36px;
+  color: white;
+  height: 80px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(54, 104, 240);
+  width: 25%;
+  text-decoration: none;
+ 
+  
+}
+.how-to-proceed-subholder3{
+  font-size: 36px;
+  color: white;
+  height: 80px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(209, 97, 97);
+  width: 25%;
+  text-decoration: none;
+  
+  
+}
+.how-to-proceed-subholder4{
+  font-size: 36px;
+  color: white;
+  height: 80px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(168, 170, 170);
+  width: 25%;
+  text-decoration: none;
+  border-radius: 0 10px 0 0;
+
+  
+}
+.how-to-proceed-content{
+  height: 200px;
+background-color: rgba(151, 205, 250, 0.356);
+}
+
+.how-to-proceed-content img{
+  width: 80px;
+  height: 90px;
+  display: inline-block;
+  text-decoration: none;
+  margin:40px 70px 150px 15%  ;
+  font-size: 18px;
+}
+
+
+.how-to-proceed-content p{
+  display: inline-block;
+  width: 60%;
+  text-decoration: none;
+  font-size: 18px;
+}
+

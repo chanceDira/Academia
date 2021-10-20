@@ -1,0 +1,27 @@
+.input-cover{
+    font-size: 18px;
+    width:40%;
+}
+.form-select{
+    height: 40px;
+    font-size: larger;
+}
+.check-list-container{
+    padding: 40px 0px;
+    width: 100%;
+}
+.check-list-row{
+    margin:0 auto;
+    padding:0 30px;
+    box-shadow: 5px 5px 5px 10px rgba(235, 231, 231, 0.397);
+    width: 100%;
+}
+.input-location-check-list{
+    width: 100%;
+}
+input{
+    margin-left: 0;
+}
+.button-check-list{
+    margin: 0 0 40px 0;
+}

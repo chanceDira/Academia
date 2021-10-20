@@ -1,0 +1,30 @@
+.services-front {
+    background: url(https://cdn.pixabay.com/photo/2016/02/18/22/18/picnic-1208229_960_720.jpg) no-repeat 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+.services-front h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.services-with{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.services-with h1{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.services-with p{
+    text-align: center;
+    color: white;
+
+
+}
+
+

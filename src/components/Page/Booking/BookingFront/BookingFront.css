@@ -1,0 +1,37 @@
+.booking-front {
+    background: url(https://cdn.pixabay.com/photo/2016/02/18/22/18/picnic-1208229_960_720.jpg) no-repeat 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.booking-with{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.booking-with h1{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.booking-with p{
+    text-align: center;
+    color: white;
+
+
+}
+
+
+@media(max-width:1000px){.Contacts {
+    position:relative;
+    display: flex;
+    height:50px;
+    list-style:none;
+    width:100%;
+    background-color: #af160b94;
+}
+
+}

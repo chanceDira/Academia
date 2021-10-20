@@ -1,0 +1,127 @@
+.OurStory{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.342);
+    font-size: 72px;
+    text-align: center;
+   
+}
+.OurStory img{
+    font-size: 12px;
+ }
+
+.story-header{
+    margin: auto;
+}
+.our-story-container{
+  
+    display: inline-flex;
+}
+.our-story-item--1{
+    width: 45%;
+    margin-left: 100px;
+}
+.our-story-item{
+    margin:0 70px 0 30px;
+
+    }
+
+
+.our-story-item p{
+    text-align: left;
+    color:rgba(7, 7, 7, 0.788);
+    padding-right: 80px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.our-story-item--1 img{
+
+   width: 40%;
+   margin:60px 0 0 100px ;
+   border-radius: 10px;
+   width: 350px;
+   height: 300px;
+  
+}
+.our-story-item h1{
+    color:rgba(7, 7, 7, 0.411);
+    text-align: center;
+}
+.our-story-item h2{
+    color:#4EB0D5;
+    text-align: left;
+    font-weight: 500;
+    font-size: 23px;
+}
+.our-story-item h3{
+    color:rgba(7, 7, 7, 0.801);
+    text-align: left;
+    padding-right: 40px;
+    font-size: 36px;
+   
+}
+
+@media (max-width: 1000px){
+    .OurStory{
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.342);
+        font-size: 18px;
+        text-align: center;
+       
+    }
+    .OurStory img{
+        font-size: 12px;
+     }
+    
+    .story-header{
+        margin: auto;
+    }
+    .our-story-container{
+      
+        display: block;
+    }
+    .our-story-item--1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .our-story-item{
+        margin:0 0px 0 20px;
+    
+        }
+    
+    
+    .our-story-item p{
+        width: 100%;
+        text-align: left;
+        color:rgba(7, 7, 7, 0.788);
+        padding-right: 0px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .our-story-item--1 img{
+    
+       width: 100%;
+       margin:0px 0 0 0px ;
+       border-radius: 10px;
+       width: 90%;
+       height: 300px;
+      
+    }
+    .our-story-item h1{
+        color:rgba(7, 7, 7, 0.411);
+        text-align: center;
+    }
+    .our-story-item h2{
+        color:#4EB0D5;
+        text-align: left;
+        font-weight: 500;
+        font-size: 23px;
+    }
+    .our-story-item h3{
+        color:rgba(7, 7, 7, 0.801);
+        text-align: left;
+        padding-right: 0px;
+        font-size: 18px;
+       
+    }
+}
+

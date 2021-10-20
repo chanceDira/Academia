@@ -1,0 +1,65 @@
+.item--2 {
+    background-image:url(https://cdn.pixabay.com/photo/2015/08/13/19/39/children-887393_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    grid-row: 1/2;
+    grid-column: 3/4;  
+
+  }
+  
+  @media (max-width: 500px){
+    .item--2 {
+     display: block; 
+     width: 100%;
+  
+    }
+}
+  
+
+
+
+.wgh-slider-item-figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.wgh-item-figure__image {
+  width:80%;
+  display: block;
+  z-index: 1;
+  opacity: 1;
+} 
+.wgh-slider-item-figure__caption {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  padding: 24px;
+  background-image: linear-gradient(0deg, #000 0%, transparent 100%);
+  z-index: 2;
+}
+.wgh-slider-item-figure__caption a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  /* line-height: 25px; */
+  font-weight: bold;
+  /* background-color: rgb(71, 71, 71);
+  color: rgb(3, 156, 194); */
+}
+.wgh-slider-item-figure__caption a:hover{
+  color: rgb(247, 255, 249);
+
+}    
+.wgh-slider-item-figure__caption span {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: underline;
+}

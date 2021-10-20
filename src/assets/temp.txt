@@ -1,0 +1,36 @@
+import React from 'react'
+import AupairPic from '../../../assets/AupairFotos/pexels-kamaji-ogino-5093684.jpg'
+import OpenInNewIcon from '@material-ui/icons/OpenInNew';
+import './Aupair.css'
+const Aupair = () => {
+    return (
+    
+
+<div className="item item--2">
+  <div class="image1">
+    <div className="wgh-slider-item__inner">
+      <figure className="wgh-slider-item-figure">
+      <img className="wgh-slider-item-figure__image" src={AupairPic} alt="The 5th Exotic"/>
+
+        <figcaption className="wgh-slider-item-figure__caption"> <a href="/aupair">
+        <div className="aupair-link">
+          Akagera & Rhein® Aupair Service
+        </div>
+        </a> <br /><a href="/aupair">  <span style={{color:'white'}}>Visit Website <OpenInNewIcon /><i class="fa fa-external-link" aria-hidden="true"></i></span> </a></figcaption>
+      </figure>
+      <label className="wgh-slider-item__trigger" for="slide-1" title="Show product 1"></label>
+    </div> 
+   
+       
+  </div>
+</div>
+
+       
+    )
+}
+export default Aupair
+
+
+
+
+

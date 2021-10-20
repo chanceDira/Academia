@@ -1,0 +1,172 @@
+
+.our-services{
+ 
+  margin: 100px;
+}
+.education-item{
+  width: 30%;
+  margin: 10px;
+  height: 500px;
+  display: inline-block;
+  border: 2px rgba(81, 81, 83, 0.13) solid;
+  border-radius: 6px;
+}
+
+
+
+.education-item-title{
+  border-radius: 8px;
+  font-weight: 200;
+  font-size: 12px;
+  padding: 3px 15px;
+  margin-left:40px;
+  color: rgb(12, 8, 250);
+  width: fit-content;
+  background-color: rgba(91, 166, 228, 0.212);
+}
+
+.education-item p{
+  margin: 10px;
+
+}
+.education-item-image--1{
+  background-image: url('https://cdn.pixabay.com/photo/2017/09/21/13/32/girl-2771936_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+.education-item-image--2{
+  background-image: url('https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--3{
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--4{
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/04/16/beach-1867271_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--5{
+  background-image: url('https://cdn.pixabay.com/photo/2018/08/22/19/27/nurse-3624463_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--6{
+  background-image: url('https://cdn.pixabay.com/photo/2018/12/14/11/55/volunteers-3874924_960_720.png');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--7{
+  background-image: url('https://cdn.pixabay.com/photo/2018/12/14/11/55/volunteers-3874924_960_720.png');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--8{
+  background-image: url('https://cdn.pixabay.com/photo/2016/02/19/11/23/women-1209678_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--9{
+  background-image: url('https://cdn.pixabay.com/photo/2014/09/07/21/50/home-office-438386_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--10{
+  background-image: url('https://cdn.pixabay.com/photo/2014/12/10/20/48/medic-563425_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image--11{
+  background-image: url('https://cdn.pixabay.com/photo/2018/11/05/13/31/translate-3796096_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+.education-item-image--12{
+  background-image: url('https://cdn.pixabay.com/photo/2017/12/21/12/08/consulting-3031678_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item-image{
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/15/09/08/looking-for-a-job-1257233_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+
+.up{
+ 
+  width: fit-content;
+  padding: 10px;
+  color: red;
+  border-radius: 10px;
+  margin:-25px auto 20px auto;
+  box-shadow:  0px 30px 10px rgba(63, 63, 63, 0.123);
+  background-color: rgb(255, 255, 255);
+}
+.bottom{
+  width: 100%;
+  background-color: rgb(27, 106, 255);
+  margin-top:25px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  height: 50px;
+  padding-top:10px;
+  border-radius: 0  0 6px 6px;
+
+}
+.bottom:hover{
+  transition:ease-in;
+}

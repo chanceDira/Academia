@@ -1,0 +1,122 @@
+.Contacts {
+    position:relative;
+    display: flex;
+    height:50px;
+    list-style:none;
+    width:100%;
+    background-color: rgb(153, 36, 36);
+}
+
+.Email {
+    margin: 10px 0px;
+    list-style:none;
+    color: white;
+    width:200px;
+}
+.Email1 {
+    margin: 10px 0px;
+    list-style:none;
+ 
+    color: white;
+ 
+}
+
+.Tel {
+    margin: 10px 10px 10px 0px;
+  
+    color: white;
+
+    
+}
+.Tel1 {
+    margin: 10px 0px;
+    margin-left: 20px;
+    color: white;
+    margin-left: 20px;
+
+    
+}
+.Register {
+    list-style:none;
+
+    color: rgb(22, 17, 17);
+    width:fit-content;
+}
+
+.Register1 {
+    list-style:none;
+    margin: 10px 5px;
+    color: rgb(255, 255, 255);
+    width:fit-content;
+}
+.Login {
+    margin: 10px 5px;
+    border-right:2px solid rgb(247, 244, 244);
+    margin-left: 55%;
+    list-style:none;
+    color: white;
+    width:50px;
+    height: fit-content;
+
+}
+
+@media(max-width:1000px){.Contacts {
+    position:relative;
+    display: flex;
+    height:50px;
+    list-style:none;
+    width:100%;
+    background-color: #af160b94;
+}
+
+.Email {
+    margin: 10px 0px;
+    list-style:none;
+    color: white;
+    width:200px;
+}
+.Email1 {
+    margin: 10px 0px;
+    list-style:none;
+    color: white;
+ 
+}
+
+.Tel {
+    margin: 10px 10px 10px 0px;
+    color: white;
+    
+}
+.Tel1 {
+    margin: 10px 0px;
+    margin-left: 20px;
+    color: white;
+    margin-left: 20px;
+
+    
+}
+.Register {
+    list-style:none;
+
+    color: rgb(22, 17, 17);
+    width:fit-content;
+}
+
+.Register1 {
+    list-style:none;
+    margin: 10px 5px;
+    color: rgb(255, 255, 255);
+    width:fit-content;
+}
+.Login {
+    margin: 10px 5px;
+    border-right:2px solid rgb(247, 244, 244);
+    margin-left: 40%;
+    list-style:none;
+    color: white;
+    width:50px;
+    height: fit-content;
+
+}
+
+}

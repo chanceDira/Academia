@@ -1,0 +1,32 @@
+#el01 {width:100%} /* Width */
+#el02 { /* Text and background colour, blue on light gray */
+color:#00f;
+background-color:#ddd;
+}
+
+#el04 {border-width:6px} /* Border width */
+#el05 {border:2px dotted #00f} /* Border width, style and colour */
+#el06 {border:none} /* No border */
+#el07 {padding:1em} /* Increase padding */
+#el08 { /* Change width and height */
+width:4em;
+height:4em;
+}
+.other-app-input{
+    height: 50px;
+    width: 600px;
+    border: 2px solid rgb(55, 83, 18);
+    transition: all 0.4s;
+    margin-bottom: 5px;
+    margin-left: -10px;
+    
+}
+.other-in-input-disabled{
+    display: none;
+    height: 1px;
+    border: 2px solid rgba(251, 251, 251, 0.342);
+    width: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+}
