@@ -1,0 +1,8 @@
+.Logo {
+
+    box-sizing: border-box;
+    border-radius: 5px
+}
+.Logo img{
+    margin-top: 20px;
+}

@@ -1,0 +1,17 @@
+.input-cover{
+    width:70%;
+}
+
+.form-check{
+    width:50%;
+    margin: 10px auto
+}
+.check{
+    width:50%;
+    max-width: 300px;
+    min-width: fit-content;
+    padding: 10px;
+    float: left;
+    color: black;
+    background-color: rgb(171, 189, 171);
+}

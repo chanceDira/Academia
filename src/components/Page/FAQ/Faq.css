@@ -1,0 +1,78 @@
+
+
+  .faq-akagera h1{
+    font-size: 20px;
+    color:rgb(28, 58, 93);
+    font-weight: 800;
+
+  }
+  .faq-akagera p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .faq-akagera-item{
+    height:150px;
+  }
+  .faq-akagera-panel{
+    box-shadow: 10px 1px 10px 10px rgba(0, 0, 0, 0.137);
+    background-color: rgba(164, 163, 170, 0.061);
+    width:80% ;
+    padding: 20px;
+    margin: 10px auto;
+    
+  }
+
+  .faq-akagera-panel-level{
+    box-shadow: 10px 1px 10px 10px rgba(0, 0, 0, 0.137);
+    background-color: rgba(160, 113, 95, 0.061);
+    width:100% ;
+    padding: 20px;
+    margin: 10px auto;
+  }
+
+  .faq-panel-level{
+    box-shadow: 10px 1px 10px 10px rgba(0, 0, 0, 0.137);
+    background-color: rgba(160, 113, 95, 0.061);
+    width:100% ;
+    display: flex;
+    padding: 20px;
+    margin: 10px auto;
+  }
+  .faq-akagera-item-level{
+    width:30%;
+    margin:20px auto;
+    padding: 20px;
+    box-shadow: 10px 1px 10px 10px rgba(0, 0, 0, 0.041);
+    
+  }
+  .faq-akagera-panel-level-title{
+    width:90%;
+    font-size: 36px;
+    font-weight: 800;
+    margin:20px auto;
+    padding: 20px;
+    box-shadow: 10px 1px 10px 10px rgba(0, 0, 0, 0.041);
+    
+  }
+
+  .faq-akagera-panel-level-title h1{
+    
+    font-size: 36px;
+    font-weight: 800;
+  
+    
+  }
+  .faq-akagera-panel-level-title p{
+    
+    font-size: 18px;
+    font-weight: 800;
+    
+  }
+  
+  .faq-akagera-more{
+    width: fit-content;
+    padding: 10px 50px;
+    color: white;
+    background-color: rgb(89, 89, 255);
+    border-radius: 200px;
+  }

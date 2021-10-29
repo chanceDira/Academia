@@ -1,0 +1,72 @@
+.material-icons-outlined{
+
+font-size: 100px;
+font-weight: 200px;
+}
+.icon-holder{
+
+background: rgb(9,118,222);
+background: linear-gradient(90deg, rgba(9,118,222,1) 24%, rgba(9,9,121,0.6320728120349702) 100%, rgba(0,212,255,1) 100%); 
+  width: fit-content;
+  margin:30px;
+  padding:10px;
+  border-radius: 80%;
+  color: white;
+}
+
+.about-akagera-item{
+  box-shadow: 10px 30px 50px 30px rgba(0, 0, 0, 0.082);
+  border-radius: 5px;
+  width:20%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  margin:20px;
+  padding: 20px;
+}
+.about-akagera{
+  text-align: center;
+}
+
+.about-akagera-item h1{
+  background: repeating-linear-gradient(90% to side-or-corner, color-stop1, color-stop2);
+  font-weight:bold;
+  font-size: 23px;
+}
+.about-akagera-item p{
+  text-align: left;
+  color:rgba(7, 7, 7, 0.829);
+}
+
+.button-about{
+  float: left;
+  width:100px;
+  margin-top:20px;
+  text-align: center;
+  font-size: 18px;
+  color:white;
+  border: none;
+  border-radius: 200px;
+  background-color:rgba(6, 101, 179, 0.993);
+}
+
+.title-why{
+  width: 130px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  height:30px;
+  margin-top: -35px;
+ 
+}
+.image-why-holder{
+  text-align: center;
+}
+@media (max-width:700px){
+  .slideImg-why{
+    width:100%;
+    height: auto;
+}
+
+
+}

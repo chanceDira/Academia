@@ -1,0 +1,77 @@
+
+.contact-akagera-item{
+
+  width:60%;
+  display: inline-block;text-align: justify;
+  text-decoration: none;
+  font-size: 16px;
+  margin:20PX;
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.contact-akagera-item-map{
+  width:35%;
+
+  display: inline-block;text-align: justify;
+  text-decoration: none;
+  font-size: 16px;
+  margin:20PX;
+  background-color: white;
+  box-shadow: 10px 30px 30px 30px rgba(131, 128, 128, 0.164) ;
+  margin-right: 70px;
+  font-weight: 400;
+  padding: 20px; 
+}
+.contact-akagera-item-map h2{
+  margin: 30px 0;
+ 
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.815);
+}
+.contact-akagera-item p{
+  color:rgba(39, 37, 37, 0.548);
+}
+.contact-akagera{
+  text-align: center;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  
+}
+
+
+.contact-akagera h1{
+  margin: 40px auto;
+  color:rgba(7, 7, 7, 0.507);
+}
+.button-contact{
+  float: left;
+  width:100px;
+  margin-top:20px;
+  text-align: center;
+  font-size: 18px;
+  color:white;
+  border: none;
+  border-radius: 200px;
+  background-color:rgba(6, 101, 179, 0.993);
+}
+.image-contact{
+  margin:10px;
+  width:100%;
+  height:400px;
+  border-radius: 10%;
+}
+.title-contact{
+  width: fit-content;
+  color: rgb(19, 57, 78);
+  font-weight: 800;
+  height:30px;
+ 
+}
+.image-contact-holder{
+  text-align: center;
+}

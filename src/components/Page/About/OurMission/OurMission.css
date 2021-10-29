@@ -1,0 +1,94 @@
+.our-mission{
+    background-color: rgba(20, 73, 220, 0.055);
+    width: 100%;
+    margin-bottom: 40px ;
+}
+.our-mission p{
+    padding: 0 50px ;
+    text-align: left;
+    color:rgba(7, 7, 7, 0.788);
+    font-size: 18px;
+    margin-top: 70px;
+    font-weight: 400;
+}
+.our-mission img{
+   float: left;
+   width: 30%;
+   padding: 10px 40px;
+   height: 300px;
+   border-radius: 30%;
+  
+}
+.our-mission h1{
+    color:rgba(7, 7, 7, 0.411);
+
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .OurMission{
+        text-align: left;
+        margin-bottom: 40px ;
+    }
+    .OurMission p{
+        padding: 0 ;
+        text-align: left;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .OurMission img{
+       float: left;
+       margin-left:10px ;
+       margin-right:30px ;
+       border-radius: 0px;
+       width: 250px;
+       height: 260px;
+      
+    }
+    .OurMission h1{
+        color:rgba(7, 7, 7, 0.411);
+    
+        text-align: center;
+    }
+    .OurMission p{
+        text-align: left;
+       
+    }
+}
+
+@media (max-width: 700px){
+    .OurMission{
+        text-align: left;
+        margin-bottom: 40px ;
+        display: block;
+    }
+    .OurMission p{
+        padding: 0 ;
+        text-align: left;
+        display:block;
+        margin:20px ;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .OurMission img{
+       float: left;
+       display:block;
+       margin-right:30px ;
+       border-radius: 0px;
+       width: 80%;
+       height: 260px;
+      
+    }
+    .OurMission h1{
+        color:rgba(7, 7, 7, 0.411);
+    
+        text-align: center;
+    }
+    .OurMission p{
+        margin:10px ;
+        text-align: left;
+       
+    }
+}

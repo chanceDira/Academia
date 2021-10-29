@@ -1,0 +1,61 @@
+.Toolbar {
+   height: 65px;
+    position: sticky ;
+    position: -webkit-sticky;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.034);
+    transition: all 0.8s;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    display:flex;
+    transition:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    justify-content: space-between;
+    align-items: center;
+    box-sizing:border-box;
+    z-index:90
+
+}
+
+.toolbar nav{
+    height:100%
+}
+.Logo{
+    margin-top:35px;
+    height:80%;
+ 
+}
+.auto-scroll-top {
+    position: fixed;
+    color: rgb(0, 255, 200);
+    margin-left:94% ;
+    width:0;
+    font-weight: bolder;
+    margin-top: 930px;
+    transition: all 1s;
+   
+  }
+ 
+  .auto-scroll-top:hover {
+    color: rgb(101, 175, 17);
+  }
+
+@media (max-width:499px){
+    .DesktopOnly{
+        display: none;
+    }
+    .auto-scroll-top {
+        position: fixed;
+        color: rgb(0, 255, 200);
+        margin-left:80% ;
+        width:0;
+        font-weight: bolder;
+        margin-top: 900px;
+        transition: all 1s;
+       
+      }
+     
+      .auto-scroll-top:hover {
+        color: rgb(101, 175, 17);
+      }
+}

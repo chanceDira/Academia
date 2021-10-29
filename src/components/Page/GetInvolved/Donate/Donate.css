@@ -1,0 +1,92 @@
+.involved-donate{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(161, 160, 175, 0.623) 0%, rgba(255, 239, 8, 0.301) 35%, rgba(136, 151, 199, 0.233) 100%); 
+    width: 100%;
+    display:flex
+
+}
+
+
+
+.involved-donate:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(161, 160, 175, 0.623) 0%, rgba(255, 239, 8, 0.301) 35%, rgba(136, 151, 199, 0.233) 100%); 
+}
+.involved-donate-item--1{
+    background-image: url(".../../../../../../assets/Donate/donate.png");
+    background-repeat: no-repeat;
+    background-size: 84%;
+    background-position: center;
+    display: inline-block;
+    width: 450px;
+    margin: 10px;
+    height: 400px;
+    cursor: pointer;
+    transition: all 0.8s;
+
+
+}
+
+.involved-donate-item--2{
+    background-image: url('../../../../assets/Donate/paypal.png'); 
+    background-repeat: no-repeat;
+    background-size: 84%;
+    background-position: center;
+    display: inline-block;
+    width: 450px;
+    margin: 10px;
+    height: 400px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.involved-donate-item--3{
+    background-image: url('../../../../assets/Donate/aitel.png');
+    background-repeat: no-repeat;
+    background-size: 84%;
+    background-position: center;
+    display: inline-block;
+    width: 450px;
+    margin: 10px;
+    height: 400px;
+    cursor: pointer;
+    transition: all 0.8s;
+    
+}
+
+.involved-donate-item--4{
+    background-image: url('../../../../assets/Donate/mtn.png');
+    background-repeat: no-repeat;
+    background-size: 84%;
+    background-position: center;
+    display: inline-block;
+    width: 450px;
+    margin: 10px;
+    height: 400px;
+    cursor: pointer;
+    transition: all 0.8s;    
+}
+.involved-donate-item--1:hover{
+    background-size: 85%;
+    transition: all 0.8s;
+
+}
+
+.involved-donate-item--2:hover{
+    background-size: 85%;
+    transition: all 0.8s;
+
+}
+.involved-donate-item--3:hover{
+    background-size: 85%;
+    transition: all 0.8s;
+
+}
+
+.involved-donate-item--4:hover{
+    background-size: 85%;
+    transition: all 0.9s;
+
+
+}

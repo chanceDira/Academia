@@ -1,0 +1,23 @@
+.input-cover{
+    width:70%;
+}
+.form-select{
+    height: 40px;
+    font-size: larger;
+}
+.involved-container{
+    width: 100%;
+}
+.involved-row{
+    margin:10px auto;
+    width: 40%;
+}
+.input-location-involved{
+    width: 100%;
+}
+input{
+    margin-left: 0;
+}
+.button-involved{
+    margin: 0 0 40px 0;
+}
